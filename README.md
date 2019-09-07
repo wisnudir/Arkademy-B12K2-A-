@@ -17,11 +17,8 @@ Jalankan file **index.php**, dan seharusnya web sudah bisa dipakai.
 ### Jawaban 6A
 ```SQL
 SELECT 
-nama.id as id,
 nama.nama as name, 
-nama.id_work as id_work, 
-nama.id_salary as id_salary, 
-work.name as workname,
+work.name as work,
 kategori.salary as salary 
 FROM nama 
 JOIN work ON nama.id_work = work.id 
