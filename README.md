@@ -1,9 +1,13 @@
 <img src="https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/asset/larkademy.png" width="100"><br/>
 # Arkademy-B12K2-A-
-Jawaban test Arkademy Batch 12 Kloter 2, atas nama Andika Satya Wisnu.
+Jawaban test Arkademy Batch 12 Kloter 2, atas nama **Andika Satya Wisnu**.
 
 ## #Jawaban 1-5
-Jawaban soal 1-5 menggunakan bahasa Javascript, bisa langsung dijalankan di online editor.
+Jawaban soal 1-5 menggunakan bahasa Javascript, bisa langsung dijalankan di online editor.<br/>
+
+Secara umum JSON (JavaScript Object Notation) merupakan format data yang digunakan untuk penyimpanan dan pertukaran data.
+Sehingga kegunaan JSON dalam REST API digunakan sebagai standar format data untuk bertukar data antar client dan server atau antar aplikasi, dengan adanya JSON maka data dapat dibaca oleh aplikasi/web dengan bahasa pemrograman apapun.<br/><br/>
+
 
 ## #Jawaban 6
 Jawaban soal 6 saya jadikan satu di folder **soal6**.<br/>
@@ -25,7 +29,7 @@ JOIN kategori ON nama.id_salary = kategori.id
 ```
 Query tersebut akan menghasilkan tabel seperti dibawah ini:<br/>
 ![Tabel Hasil Query Gabungan](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/asset/img/6A-tabel-gabungan.PNG)
-<br/>Dengan catatan sebelumnya telah menjalankan query [**ini**](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/arkademy.sql), untuk membangun tabel-tabel yang akan digabungkan/direlasikan.
+<br/>Dengan catatan sebelumnya telah menjalankan query [**arkademy.sql**](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/arkademy.sql), untuk membangun tabel-tabel yang akan digabungkan/direlasikan.
 
 ### Jawaban 6B
 Tampilan halaman **Home**:<br/>
