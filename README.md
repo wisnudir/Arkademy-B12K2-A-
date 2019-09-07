@@ -25,7 +25,7 @@ JOIN work ON nama.id_work = work.id
 JOIN kategori ON nama.id_salary = kategori.id
 ```
 Query tersebut akan menghasilkan tabel seperti dibawah ini:<br/>
-![Tabel Hasil Query Gabungan](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/asset/img/6A-tabel-gabungan.PNG)
+![Tabel Hasil Query Gabungan](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/asset/img/6A-tabel-join.PNG)
 <br/>Dengan catatan sebelumnya telah menjalankan query [**arkademy.sql**](https://github.com/wisnudir/Arkademy-B12K2-A-/blob/master/soal6/arkademy.sql), untuk membangun tabel-tabel yang akan digabungkan/direlasikan.
 
 ### Jawaban 6B
