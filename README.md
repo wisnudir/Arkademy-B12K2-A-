@@ -3,7 +3,7 @@
 Jawaban test Arkademy Batch 12 Kloter 2, atas nama **Andika Satya Wisnu**.
 
 ## #Jawaban 1-5
-Jawaban soal 1-5 menggunakan bahasa Javascript, bisa langsung dijalankan di online editor.<br/>
+Jawaban soal 1-5 menggunakan bahasa **Javascript**, bisa langsung dijalankan di online editor.<br/>
 
 Secara umum JSON (JavaScript Object Notation) merupakan format data yang digunakan untuk penyimpanan dan pertukaran data.
 Sehingga kegunaan JSON dalam REST API digunakan sebagai standar format data untuk bertukar data antar client dan server atau antar aplikasi, dengan adanya JSON maka data dapat dibaca oleh aplikasi/web dengan bahasa pemrograman apapun.<br/><br/>
