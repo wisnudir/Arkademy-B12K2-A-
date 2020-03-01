@@ -1,0 +1,40 @@
+<div style="margin:20px; text-align: center;">
+    <button onClick="orderNow()" class="row" style=" width:100%; background-color: limegreen; border-radius: 50px; border: none; color: white; font-size: 20pt; padding: 10px 30px 10px;  text-decoration: none; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+    
+        <div class="col-sm-3" style="text-align: center;">
+            <img border="0" src="https://4.bp.blogspot.com/-q6DGmmJeiVA/XltEvxCmV2I/AAAAAAAACGo/lYbHpdWIBsgeivj0TiiFiY_VYo6WH6rBwCNcBGAsYHQ/s1600/image%2B%252817%2529.webp" data-original-width="50" data-original-height="50" />
+        </div>
+    
+        <div class="col-sm-9" style="text-align: left;">
+            <b style="font-size: 24pt;">ORDER NOW</b> <br/> <b>Click to WhatsApp<br/>
+        </div>
+
+    </button>
+</div>
+
+
+
+<script>
+function orderNow(){
+  fbq('track', 'AddPaymentInfo');
+
+  var ua = navigator.userAgent.toLowerCase();
+console.log(ua);
+console.log("DAN");
+console.log(ua.indexOf("mobile"));
+  var isMobile = ua.indexOf("mobile") > -1;
+  if (isMobile) {
+      window.location.href = "whatsapp://send?text=Hai%20kak,%20saya%20mau%20pesan%20USB%20Mosquito%20Trap%20ya&phone=6281353296457";
+      fbq('track', 'Purchase', {
+        value: 145000,
+        currency: 'IDR',
+      });
+  } else {
+      window.open("https://web.whatsapp.com/send?text=Hai%20kak,%20saya%20mau%20pesan%20USB%20Mosquito%20Trap%20ya&phone=6281353296457", "Share with Whatsapp Web", 'width=800,height=600');
+      fbq('track', 'Purchase', {
+        value: 145000,
+        currency: 'IDR',
+      });
+  }
+}
+</script>
